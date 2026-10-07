@@ -1,0 +1,45 @@
+product response
+    {
+      "_id": "6ac26bd807e859c43bdd68e2",
+      "name": "Laptop",
+      "description": "A basic laptop",
+      "price": 45000,
+      "stock": 10,
+      "category": "Electronics",
+      "status": "active",
+      "createdAt": "2026-10-04T15:08:08.117Z",
+      "updatedAt": "2026-10-04T15:08:08.117Z",
+      "__v": 0
+    }
+
+user  response  
+    {
+      "_id": "6ac26a6107e859c43bdd68e1",
+      "name": "Arul Kumar",
+      "email": "arul@example.com",
+      "phone": "9876543210",
+      "role": "customer",
+      "createdAt": "2026-10-04T15:01:53.799Z",
+      "updatedAt": "2026-10-04T15:01:53.799Z",
+      "__v": 0
+    }
+
+order response
+    {
+      "_id": "6ac28a71ca9a9b36fbb0cce2",
+      "user_id": "6ac26a6107e859c43bdd68e1",
+      "items": [
+        {
+          "product_id": "6ac26bd807e859c43bdd68e2",
+          "quantity": 1,
+          "price_at_purchase": 45000,
+          "_id": "6ac28a71ca9a9b36fbb0cce3"
+        }
+      ],
+      "total_amount": 45000,
+      "status": "pending",
+      "createdAt": "2026-10-04T17:18:41.939Z",
+      "updatedAt": "2026-10-04T17:18:41.939Z",
+      "__v": 0
+    }
+  
